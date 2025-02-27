@@ -1,0 +1,27 @@
+// Problem
+// Mirip seperti soal nomor 3, tapi tampilkan juga panjang kata masing-masingnya!
+
+
+let word4 = 'wow JavaScript is so cool';
+let exampleFirstWord4 = word4.substring(0, 3);
+
+let firstWordLength = exampleFirstWord4.length;
+
+console.log('First Word     : ' + exampleFirstWord4 + ', with length : ' + firstWordLength);
+
+let kata2 = word4.substring(4, 14);
+let PanjangKata2 = kata2.length;
+
+let kata3 = word4.substring(15, 17);
+let panjangKata3 = kata3.length;
+
+let kata4 = word4.substring(18, 20);
+let panjangKata4 = kata4.length;
+
+let kata5 = word4.substring(21, 25);
+let panjangKata5 = kata5.length;
+
+console.log('Second Word    :' + kata2 + ', with length :' + PanjangKata2);
+console.log('Third Word     :' + kata3 + ', with length :' + panjangKata3);
+console.log('Fourth Word    :' + kata4 + ', with length :' + panjangKata4);
+console.log('Fifth Word     :' + kata5 + ', with length :' + panjangKata5);
