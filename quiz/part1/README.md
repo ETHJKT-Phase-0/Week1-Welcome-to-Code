@@ -28,10 +28,33 @@ yak Buka aja W3school dan kerjakan soal soal berikut
 // algoritma
 //isi algoritma mu disini (AWAS KALO GA DI ISI!!!!)
 
+//proxytia
+let nama= "g.v", peran= "bcdvd"
 
-let nama = "", peran = "";
+if (nama ===""){
+    console.log("nama wajib diisi!");
+}
 
-//code disini gunakan console.log untuk outputnya
+//sistem peran
+if (peran ===""){
+    console.log("pilih peran mu untuk memulai game");
+}
+ 
+else if  (peran ==="ksatria"){
+    console.log("halo ksatria ,kamu dapat menyerang dengan senjatamu!")
+}
+
+else if  (peran ==="tabib"){
+    console.log("halo tabib,kamu akan membantu temanmu yang terluka")
+}
+
+else if  (peran ==="penyihir"){
+    console.log("halo penyihir,ciptakan keajaiban yang membantu kemenanganmu")
+}
+
+else {
+    console.log("tapi kayaknya kamu jadi bot aja ya, peran yang kamu pilih ga ada")
+}
 
 ```
 
