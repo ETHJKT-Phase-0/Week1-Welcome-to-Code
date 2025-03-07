@@ -30,6 +30,17 @@ yak Buka aja W3school dan kerjakan soal soal berikut
 
 
 let nama = "", peran = "";
+if (nama === "") {
+   console.log("Nama wajib diisi")
+} else if (peran === "Ksatria") {
+    console.log(`halo Ksatria ${nama} , kamu dapat menyerang dengan senjatamu!`);
+} else if (peran === "Tabib") {
+    console.log(`halo Tabib ${nama} , kamu akan membantu temanmu yang terluka`);
+} else if (peran === "Penyihir") {
+    console.log(`halo Penyihir ${nama} , ciptakan keajaiban yang membantu kemenanganmu!`);
+} else {
+    console.log(`tapi kayaknya kamu jadi bot aja ya, peran yang kamu pilih ga ada`)
+}
 
 //code disini gunakan console.log untuk outputnya
 
@@ -50,10 +61,54 @@ let nama = "", peran = "";
 //tips gunakan keyword ini di google "conditional switch case javascript"
 //dan mulailah membaca dan mencontek di stackoverflow xixixi
 
-let tanggal = 12; // assign nilai variabel tanggal disini! (dengan angka antara 1 - 31)
-let bulan = "februari"; // assign nilai variabel bulan disini! (dengan angka antara 1 - 12)
-let tahun = 2001; // assign nilai variabel tahun disini! (dengan angka antara 1900 - 2200)
+let tanggal = 1; // assign nilai variabel tanggal disini! (dengan angka antara 1 - 31)
+let bulan = 5; // assign nilai variabel bulan disini! (dengan angka antara 1 - 12)
+let tahun = 1945; // assign nilai variabel tahun disini! (dengan angka antara 1900 - 2200)
 
+let text = ""; 
+
+switch (bulan) {
+    case 1:
+        text = "Januari";
+        break;
+    case 2:
+        text = "Februari";
+        break;
+    case 3:
+        text = "Maret";
+        break;
+    case 4:
+        text = "April";
+        break;
+    case 5:
+        text = "Mei"; 
+        break;
+    case 6:
+        text = "Juni"; 
+        break;
+    case 7:
+        text = "Juli";
+        break;
+    case 8:
+        text = "Agustus";
+        break;
+    case 9:
+        text = "September";
+        break;
+    case 10:
+        text = "Oktober";
+        break;
+    case 11:
+        text = "November";
+        break;
+    case 12:
+        text = "Desember";
+        break;
+    default:
+        text = "Bulan tidak valid";
+}
+
+console.log(`${tanggal} ${text} ${tahun}`); 
 //code switch case kamu disini
 ```
 
