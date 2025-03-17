@@ -28,9 +28,6 @@ yak Buka aja W3school dan kerjakan soal soal berikut
 // algoritma
 //isi algoritma mu disini (AWAS KALO GA DI ISI!!!!)
 
-
-let nama = "", peran = "";
-
 //code disini gunakan console.log untuk outputnya
 
 ```
@@ -55,7 +52,6 @@ let bulan = "februari"; // assign nilai variabel bulan disini! (dengan angka ant
 let tahun = 2001; // assign nilai variabel tahun disini! (dengan angka antara 1900 - 2200)
 
 //code switch case kamu disini
-```
 
 ---
 video biar rada paham lah, soalnya ini awal kepahitan ngoding wkwk:
