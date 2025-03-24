@@ -6,21 +6,19 @@
 
 ## Soal 1
 ```js
-// Problem
-// Diberikan sebuah function bandingkanAngka(angka1, angka2) yang menerima dua parameter angka. 
-// Function akan me-return nilai true jika angka2 lebih besar dari angka1, dan false jika sebaliknya. 
-// Jika kedua angka bernilai sama, function akan me-return -1.
+// Buatlah sebuah fungsi bernama processSentence(), yang akan memproses seluruh parameter yang diinput menjadi 
+// satu kalimat berikut: 
+// "Nama saya [Name], umur saya [Age] tahun, alamat saya di [Address], dan saya punya hobby yaitu [hobby]!"
 
-function bandingkanAngka(angka1, angka2) {
-  //code disini
-}
-  
-  // TEST CASES
-  console.log(bandingkanAngka(5, 8)); // true
-  console.log(bandingkanAngka(5, 3)); // false
-  console.log(bandingkanAngka(4, 4)); // -1
-  console.log(bandingkanAngka(3, 3)); // -1
-  console.log(bandingkanAngka(17, 2)); // false
+//bikin fungsinya disini
+
+let name = "Agus";
+let age = 30;
+let address = "Jln. Malioboro, Yogjakarta";
+let hobby = "gaming";
+
+let fullSentence = processSentence(name,age,address,hobby);
+console.log(fullSentence); // Menampilkan "Nama saya Agus, umur saya 30 tahun, alamat saya di Jln. Malioboro, Yogjakarta, dan saya punya hobby yaitu gaming!"
 
 ```
 ## Soal 2
