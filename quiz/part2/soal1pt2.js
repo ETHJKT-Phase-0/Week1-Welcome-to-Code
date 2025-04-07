@@ -14,6 +14,7 @@ let fifth = 'I';
 let sixth = 'love';
 let seventh = 'it!';
 
+console.log(word + ' ' + second + ' ' + third + ' ' + fourth + '    ' + fifth + ' ' + sixth + ' ' + seventh);
 
 
 //code here
