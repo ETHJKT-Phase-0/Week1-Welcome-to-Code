@@ -1,0 +1,15 @@
+let input = 5
+//hasilnya
+//*
+//**
+//***
+//****
+//*****
+
+for (i=1; i<=input; i++) {
+    let bintang ="";
+    for (j=1; j<=i; j++) {
+    bintang +=`*`
+    }
+    console.log(bintang);
+}

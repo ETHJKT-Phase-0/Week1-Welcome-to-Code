@@ -18,7 +18,7 @@ let sixth = 'love';
 let seventh = 'it!';
 
 //code here
-```
+
 ## Soal 2. Index Accessing - 1 by 1
 ```js
 // Problem
