@@ -15,7 +15,5 @@ let sixth = 'love';
 let seventh = 'it!';
 
 //code here
-function gabung(word) {
-  return word += second + third + fourth + fifth + sixth + seventh;
-}
+ word += second + third + fourth + fifth + sixth + seventh;
 console.log(word);
