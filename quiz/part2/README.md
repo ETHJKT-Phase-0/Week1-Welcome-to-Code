@@ -18,6 +18,7 @@ let sixth = 'love';
 let seventh = 'it!';
 
 //code here
+console.log(`${word} ${second} ${third} ${fourth} ${fifth} ${sixth} ${seventh}`)
 ```
 ## Soal 2. Index Accessing - 1 by 1
 ```js
