@@ -1,8 +1,9 @@
 # Sepaham apakah kalian tentang fungsi? | Part 4
 
 ## Soal 1
+
 ```js
-// Tugas 1
+/// Tugas 1
 // Buatlah sebuah fungsi bernama shoutOut(), yang mengembalikan nilai berupa "Halo Function!", 
 // yang kemudian akan ditampilkan di console.
 
@@ -17,6 +18,7 @@ console.log('')
 ```
 
 ## Soal 2
+
 ```js
 // Buatlah sebuah fungsi bernama calculateMultiply(), yang mengembalikan nilai berupa hasil kali dari 
 // dua parameter yang dikirim.
@@ -33,7 +35,9 @@ console.log(hasilPerkalian);
 console.log('')
 // -----------------------------------
 ```
+
 ## Soal 3
+
 ```js
 // Buatlah sebuah fungsi bernama processSentence(), yang akan memproses seluruh parameter yang diinput menjadi 
 // satu kalimat berikut: 
@@ -49,5 +53,7 @@ let hobby = "gaming";
 let fullSentence = processSentence(name,age,address,hobby);
 console.log(fullSentence); // Menampilkan "Nama saya Agus, umur saya 30 tahun, alamat saya di Jln. Malioboro, Yogjakarta, dan saya punya hobby yaitu gaming!"
 ```
+
 ---
+
 Materi Function: [Link](../../study-materials/part6.md)

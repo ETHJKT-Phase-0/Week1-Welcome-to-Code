@@ -9,15 +9,10 @@
 //  untuk membentuk sebuah kalimat. Jangan lupa menambahkan spasi di setiap kata, dan
 //   tampilkan di console hasil penggabungannya! Kamu tidak perlu membuat variable baru!
 
-let word = 'JavaScript';
-let second = 'is';
-let third = 'awesome';
-let fourth = 'and';
-let fifth = 'I';
-let sixth = 'love';
-let seventh = 'it!';
+
 
 //code here
+
 ```
 ## Soal 2. Index Accessing - 1 by 1
 ```js
@@ -33,8 +28,7 @@ let seventh = 'it!';
 let word = 'wow JavaScript is so cool';
 let exampleFirstWord = word[0] + word[1] + word[2];
 
-console.log('First Word: ' + exampleFirstWord);
-//lanjutkan dengan struktur log diatas
+
 ```
 ## Soal 3. Breaking Sentence (Again) using Substring
 ```js
@@ -44,7 +38,7 @@ console.log('First Word: ' + exampleFirstWord);
 let word3 = 'wow JavaScript is so cool';
 let exampleFirstWord3 = word3.substring(0, 3);
 
-console.log('First Word: ' + exampleFirstWord3);
+console.log('First Word: ' + exampleFirstWord3);````````````````````````````````````````````````````````````````
 ```
 
 ## Soal 4. Breaking Sentence (yet Again) and Count Each Length
