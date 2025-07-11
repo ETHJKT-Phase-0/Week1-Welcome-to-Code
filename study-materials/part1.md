@@ -12,7 +12,7 @@ terkait apa saja yang harus disiapkan adalah:
 - [Bikin akun Github](https://github.com/)
 - [Download VSCode](https://code.visualstudio.com/download)
 - [Download NodeJS](https://nodejs.org/en)
-
+;'/il. vb   
 # Apa itu Git ? 
 
 Mungkin pertama" kalian akan bingung apa itu git dan kenapa pemula langsung belajar git ? 
