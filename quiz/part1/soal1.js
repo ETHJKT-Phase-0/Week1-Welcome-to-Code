@@ -34,9 +34,7 @@ switch (peran) {
     );
     break;
   case "tabib":
-    console.log(
-      `halo Tabib ${nama} , kamu akan membantu temanmu yang terluka`
-    );
+    console.log(`halo Tabib ${nama} , kamu akan membantu temanmu yang terluka`);
     break;
   case "penyihir":
     console.log(
