@@ -37,12 +37,12 @@ console.log('First Word: ' + exampleFirstWord);
 //lanjutkan dengan struktur log diatas
 ```
 ## Soal 3. Breaking Sentence (Again) using Substring
-```js
+```js 
 // Problem
 // Mirip seperti soal nomor 2, namun kali ini gunakan substring untuk mengambil potongan dari tiap kata!
 
 let word3 = 'wow JavaScript is so cool';
-let exampleFirstWord3 = word3.substring(0, 3);
+let exampleFirstWord3 = word3.substring(0, 3);                               
 
 console.log('First Word: ' + exampleFirstWord3);
 ```
