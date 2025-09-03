@@ -1,4 +1,5 @@
 # Week 1 - Welcome to Code!
+
 ![HD-wallpaper-welcome-beach-funny-ocean](https://github.com/user-attachments/assets/d76c18fb-6f11-4671-8277-11454fa7b48e)
 
 Selamat datang di RPN Phase-0 Week 1! Repo ini dibuat khusus untuk pemula yang ingin belajar coding dengan fokus pada JavaScript fundamental. Di sini, kalian akan menemukan materi yang mencakup dasar-dasar pemrograman, seperti variabel, tipe data, conditional statement, looping, fungsi, dan banyak lagi.
@@ -6,15 +7,18 @@ Selamat datang di RPN Phase-0 Week 1! Repo ini dibuat khusus untuk pemula yang i
 ## Apa yang akan Kalian pelajari di week1 ?
 
 1. **Dasar-dasar Pemrograman**
+
    - Algorithm & Pseudocode
    - Variable & Type Data
    - Logical Operator
 
 2. **Conditional Statements**
+
    - If...else statements
    - Switch case
 
 3. **Looping**
+
    - For loop
    - While loop
 
@@ -29,6 +33,7 @@ Selamat datang di RPN Phase-0 Week 1! Repo ini dibuat khusus untuk pemula yang i
 3. **Bergabunglah dengan komunitas.** Jangan ragu untuk bertanya atau berdiskusi dengan sesama pemula di bagian issues atau melalui pull requests.
 
 ## Week 1 Study Materials
+
 - [Apa saja yang harus disiapkan](./study-materials/part1.md)
 - [Belajar Algoritma](./study-materials/part2.md)
 - [Sintaks JavaScript](./study-materials/part3.md)
@@ -37,6 +42,7 @@ Selamat datang di RPN Phase-0 Week 1! Repo ini dibuat khusus untuk pemula yang i
 - [Belajar Function](./study-materials/part6.md)
 
 ## Week 1 Logic Nolep (quiz)
+
 - [Part1](https://github.com/RPN-Phase-0/Week1-Welcome-to-Code/blob/main/quiz/part1/README.md)
 - [Part2](https://github.com/RPN-Phase-0/Week1-Welcome-to-Code/tree/main/quiz/part2)
 - [Part3](https://github.com/RPN-Phase-0/Week1-Welcome-to-Code/tree/main/quiz/part3)
