@@ -5,7 +5,7 @@
 //bikin fungsinya disini
 
 function shoutOut (greetings){
-    return console.log('----------------') ,console.log("Halo Function!"), console.log('----------------');
+    return "Halo Function!"
 };
 // console.log(shoutOut());
 shoutOut();

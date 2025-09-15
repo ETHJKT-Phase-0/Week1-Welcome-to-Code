@@ -26,41 +26,41 @@ if (bulan < 1 || bulan > 12) {
 if (tahun < 1900 || tahun > 2200) {
   console.log("Tahun tidak valid");
 }
-switch (true) {
-  case bulan === 1:
+switch (bulan) {
+  case 1:
     namaBulan = "Januari";
     break;
-  case bulan === 2:
+  case 2:
     namaBulan = "Februari";
     break;
-  case bulan === 3:
+  case 3:
     namaBulan = "Maret";
     break;
-  case bulan === 4:
+  case 4:
     namaBulan = "April";
     break;
-  case bulan === 5:
+  case 5:
     namaBulan = "Mei";
     break;
-  case bulan === 6:
+  case 6:
     namaBulan = "Juni";
     break;
-  case bulan === 7:
+  case 7:
     namaBulan = "Juli";
     break;
-  case bulan === 8:
+  case 8:
     namaBulan = "Agustus";
     break;
-  case bulan === 9:
+  case 9:
     namaBulan = "September";
     break;
-  case bulan === 10:
+  case 10:
     namaBulan = "Oktober";
     break;
-  case bulan === 11:
+  case 11:
     namaBulan = "November";
     break;
-  case bulan === 12:
+  case 12:
     namaBulan = "Desember";
     break;
 }
