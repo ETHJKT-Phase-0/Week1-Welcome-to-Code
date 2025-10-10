@@ -1,9 +1,9 @@
-// function balikKata(kata) {
-//     // let arr = kata.split()
-//     let kebalik = kata.split("").reverse().join("")
-//     return kebalik
-// }
-//or
+function balikKata(kata) {
+let arr = kata.split()
+    let kebalik = kata.split("").reverse().join("")
+    return kebalik
+}
+or
 
 function balikKata(kata) {
   let result = "";

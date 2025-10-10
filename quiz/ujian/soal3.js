@@ -5,10 +5,11 @@
 
 function konversiMenit(menit) {
     let result = '';
-    let minute = Math.ceil(menit /60); 
-    // minute.toFixed(0); ???
+    let minute = Math.floor(menit /60); // pembulatan ke bawah
     let second = menit % 60;
-    result = minute.toString() + ':' + second.toString();
+    if (second < 10 )
+        second = '0' + second.toString()
+    result =  + minute.toString() + ':' + second;
     return result;
 };
   
