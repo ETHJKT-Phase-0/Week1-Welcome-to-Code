@@ -7,7 +7,12 @@ let input = 5
 //****
 //*****
 
-for (i = 1; i <= input; i++) {
-  console.log('*'.repeat(i));
 
+let pattern = '';
+for (i = 1; i <= input; i++) {
+  for (let j = 1; j <= i; j++) {
+    pattern += "* "
+  }
+  pattern += "\n"
 }
+console.log(pattern); 
