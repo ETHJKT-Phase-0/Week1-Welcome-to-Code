@@ -11,7 +11,7 @@ function konversiMenit(menit) {
   if (min < 10) {
     min = '0' + min;
   };
-  
+
   return `${Math.floor(jam)}:${min}`
 }
 
