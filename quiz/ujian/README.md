@@ -13,6 +13,17 @@
 
 function bandingkanAngka(angka1, angka2) {
   //code disini
+
+}function bandingkanAngka(angka1, angka2) {
+   if (angka1 < angka2){
+    return true;
+   }
+    else if ( angka1 > angka2){
+    return false;
+   }
+   else {
+    return -1;
+   }
 }
   
   // TEST CASES
@@ -30,7 +41,11 @@ function bandingkanAngka(angka1, angka2) {
 // Function akan me-return kata yang dibalik. Contoh, jika kata adalah "John Doe", function akan me-return "eoD nhoJ".
 
 function balikKata(kata) {
-    // you can only write your code here!
+let balikKata = "";
+for (let i =kata.length -1 ; i >= 0; i--){
+  balikKata += kata[i];
+}
+return balikKata;
 }
   
 // TEST CASES
@@ -50,7 +65,9 @@ console.log(balikKata('Super')); // repuS
 // Contoh, jika menit adalah 63, maka function akan me-return "1:03".
 
 function konversiMenit(menit) {
-    // you can only write your code here!
+    let jam = Math.floor(menit / 60);
+    let sisaMenit = menit % 60;
+    return jam + ":" + (sisaMenit < 10 ? "0" : "") + sisaMenit;
 }
   
 // TEST CASES
@@ -66,11 +83,20 @@ console.log(konversiMenit(120)); // 2:00
 //   Problem
 //   Diberikan sebuah function xo(str) yang menerima satu parameter berupa string. 
 //   Function akan me-return true jika jumlah karakter x sama dengan jumlah karakter o, dan false jika tidak.
-
 function xo(str) {
-    // you can only write your code here!
+   totalX = 0;
+   totalO=0;
+ for (let i = 0; i < str.length; i++) {
+    if (str[i] === 'x') {
+   totalX++;
+    } if (str[i] === 'o') {
+    totalO++;
+    }
+
 }
-  
+return (totalX === totalO);
+}
+
 // TEST CASES
 console.log(xo('xoxoxo')); // true
 console.log(xo('oxooxo')); // false

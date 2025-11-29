@@ -18,6 +18,7 @@ let sixth = 'love';
 let seventh = 'it!';
 
 //code here
+console.log(word + ' ' + second + ' ' + third + ' ' + fourth + ' ' + fifth + ' ' + sixth + ' ' + seventh);
 ```
 ## Soal 2. Index Accessing - 1 by 1
 ```js
@@ -35,6 +36,10 @@ let exampleFirstWord = word[0] + word[1] + word[2];
 
 console.log('First Word: ' + exampleFirstWord);
 //lanjutkan dengan struktur log diatas
+console.log('Second Word:' +exampleFirstWord +' ' +word[4] + word[5] + word[6] + word[7] + word[8] + word[9] + word [10] + word [11] + word [12]  + word [13] + word [14]);
+console.log('Third Word:'+ exampleFirstWord +' ' + word[4] + word[5] + word[6] + word[7] + word[8] + word[9] + word [10] + word [11] + word [12] + word [13] + word [14] + ' ' + word [15] + word [16]);
+console.log('Five Word:'+ exampleFirstWord +' ' + word[4] + word[5] + word[6] + word[7] + word[8] + word[9] + word [10] + word [11] + word [12] + word [13] + word [14] + ' ' + word [15] + word [16] + ' '+ word [18] + word [19]);
+console.log('Six Word:'+ exampleFirstWord +' ' + word[4] + word[5] + word[6] + word[7] + word[8] + word[9] + word [10] + word [11] + word [12] + word [13] + word [14] + ' ' + word [15] + word [16] + ' '+ word [18] + word [19] + ' ' + word [21] + word [22] + word [23] + word [24]);
 ```
 ## Soal 3. Breaking Sentence (Again) using Substring
 ```js
@@ -45,6 +50,11 @@ let word3 = 'wow JavaScript is so cool';
 let exampleFirstWord3 = word3.substring(0, 3);
 
 console.log('First Word: ' + exampleFirstWord3);
+
+console.log('Second Word: ' + ' ' + word3.substring(0, 14));
+console.log('Third Word:' + ' '+ word3.substring(0,17));
+console.log('Four Word:' + ''+word3.substring(0,20));
+console.log('Five Word:'+' '+ word3.substring(0,25));
 ```
 
 ## Soal 4. Breaking Sentence (yet Again) and Count Each Length
@@ -59,7 +69,12 @@ let exampleFirstWord4 = word4.substring(0, 3);
 let firstWordLength = exampleFirstWord4.length;
 
 console.log('First Word: ' + exampleFirstWord + ', with length: ' + firstWordLength);
-```
+console.log('Second Word:'+ word4.substring(4,14)+', With length:' + word4.substring(4,14).length);
+console.log('Third Word:' + word4.substring(14,17) +', With length:'+ word4.substring(14,17).length);
+console.log('Four Word:' + word4.substring(17,20) +', With length:'+ word4.substring(17,20).length);
+console.log('Five Word:' + word4.substring(20,25) +', With length:'+ word4.substring(20,25).length);
+
+
 
 tulis code sesuai dengan keterangan soalnya dan pola example yang ada
 
