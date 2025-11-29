@@ -18,6 +18,7 @@ let sixth = 'love';
 let seventh = 'it!';
 
 //code here
+console.log(word + ' ' + second + ' ' + third + ' ' + fourth + ' ' + fifth + ' ' + sixth + ' ' + seventh);
 ```
 ## Soal 2. Index Accessing - 1 by 1
 ```js
@@ -31,10 +32,24 @@ let seventh = 'it!';
 //  tersebut!
 
 let word = 'wow JavaScript is so cool';
-let exampleFirstWord = word[0] + word[1] + word[2];
+
+//lanjutkan dengan struktur log diatas
+
+let exampleFirstWord = 
+word[0] + word[1] + word[0]+
+word[3]+ 
+word[4]+ word[5]+ word[6]+ word[5]+ 
+word[8]+ word[9]+ word[10]+ word[11]+ word[12]+ word[13]+ 
+word[3] + 
+word[11]+ word[16] +
+word[3] + 
+word[16]+ word[1] +
+word[3] + 
+word[21]+ word[1]+ word[1]+ word[24];
 
 console.log('First Word: ' + exampleFirstWord);
-//lanjutkan dengan struktur log diatas
+
+
 ```
 ## Soal 3. Breaking Sentence (Again) using Substring
 ```js
@@ -42,7 +57,11 @@ console.log('First Word: ' + exampleFirstWord);
 // Mirip seperti soal nomor 2, namun kali ini gunakan substring untuk mengambil potongan dari tiap kata!
 
 let word3 = 'wow JavaScript is so cool';
-let exampleFirstWord3 = word3.substring(0, 3);
+let exampleFirstWord3 = word3.substring(0, 3)+ ' '+ 
+word3.substring(4, 14)+' '+
+word3.substring(15, 17)+' '+
+word3.substring(18, 20)+' '+
+word3.substring(21, 25);               
 
 console.log('First Word: ' + exampleFirstWord3);
 ```
@@ -54,11 +73,17 @@ console.log('First Word: ' + exampleFirstWord3);
 
 
 let word4 = 'wow JavaScript is so cool';
-let exampleFirstWord4 = word4.substring(0, 3);
+let kata1 = word4.substring(0, 3);
 
-let firstWordLength = exampleFirstWord4.length;
+let panjang_kata = kata1.length;
 
-console.log('First Word: ' + exampleFirstWord + ', with length: ' + firstWordLength);
+
+console.log('Kata pertama : '+ kata1 + ', dengan panjang: ' + panjang_kata);
+
+console.log('Kata kedua: ' + word4.substring(4, 14) + ', dengan panjang: ' + word4.substring(4, 14).length);
+console.log('Kata ketiga : '+word4.substring(15, 17) + ', dengan panjang: ' + word4.substring(15, 17).length); 
+console.log('Kata keempat  ' + word4.substring(18, 20) + ', dengan panjang: ' + word4.substring(18, 20).length);    
+console.log('Kata kelima: ' + word4.substring(21, 25) + ', dengan panjang: ' + word4.substring(21, 25).length);
 ```
 
 tulis code sesuai dengan keterangan soalnya dan pola example yang ada
