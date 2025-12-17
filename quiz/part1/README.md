@@ -4,7 +4,7 @@ oke kawan-kawan, disini kalian akan belajar yang namanya Conditional Statement, 
 
 singkatnya sih disini belajar if else, namun nanti ada soal yang dimana kamu harus belajar cara membaca dokumentasi dan cara belajar mandiri, yaitu soal bertema Switch hehe.
 
-yak Buka aja W3school dan kerjakan soal soal berikut
+yak Buka aja W3school dan kerjakan soal soal berikut 
 
 ## Soal 1:
 ```js
@@ -30,6 +30,12 @@ yak Buka aja W3school dan kerjakan soal soal berikut
 
 
 let nama = "", peran = "";
+
+if (nama = "") {
+    console.log("Pilih Peranmu untuk memulai game");
+}
+
+
 
 //code disini gunakan console.log untuk outputnya
 

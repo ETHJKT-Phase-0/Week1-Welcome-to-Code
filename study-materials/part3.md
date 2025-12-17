@@ -311,11 +311,11 @@ Poin-poin penting untuk diingat:
 
 ## Strings Type (Detailed)
 
-String dalam JavaScript memiliki beberapa karakteristik penting yang perlu dipahami. Pertama, string bersifat immutable, yang berarti setelah string dibuat, nilainya tidak dapat diubah. Ketika kita melakukan operasi pada string, sebenarnya kita membuat string baru, bukan mengubah string aslinya.
+String dalam JavaScript memiliki beberapa karakteristik penting yang perlu dipahami. Pertama, string bersifat immutable, yang berarti setelah string dibuat, nilainya tidak dapat diubah. Ketika kita melakukan operasi pada string, sebenarnya kita membuat string baru, bukan mengubah string aslinya. 
 
 Setiap karakter dalam string memiliki posisi numerik yang disebut index, dimulai dari 0. Misalnya dalam string "Hello", 'H' berada di index 0, 'e' di index 1, dan seterusnya. 
 
-lihat contoh lengkapnya:
+lihat contoh lengkapnya: 
 
 ```javascript
 let teks = "Hello World";

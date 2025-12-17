@@ -392,7 +392,7 @@ sebelum kita push kalian harus konfigurasi git profile di local :
 ![image](https://github.com/user-attachments/assets/7bcc03da-331c-4a5d-9c7c-34d442643314)
 
 
-setelah konfigurasi selesai kalian bisa lanjut untuk commit & push.
+setelah konfigurasi selesai kalian bisa lanjut untuk commit & push. 
 
 Ketik command :
 

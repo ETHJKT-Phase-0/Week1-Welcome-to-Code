@@ -113,7 +113,7 @@ Nah flowchart itu apa sih ?
 
 Flowchart atau diagram alir adalah representasi visual dari sebuah proses atau algoritma yang menggunakan simbol-simbol yang saling terhubung dengan panah untuk menunjukkan langkah-langkah dan alur prosesnya.
 
-Komponen utama dalam flowchart:
+Komponen utama dalam flowchart: 
 
 Simbol Dasar:
 
@@ -233,7 +233,7 @@ Dengan memahami algoritma dasar, Kalian akan lebih mudah memahami dan mengimplem
 
 Algoritma kompleks ini akan kalian pelajari di phase 1 nanti !. 
 
--------------------------------------------------------
+---------------------------------------------------------------------------------------
 ## Other Source
 
 [Apa itu algoritma pemrograman by WPU](https://youtu.be/uqVJc9lLknA?si=-_BqdNZQS5xcCQrd)

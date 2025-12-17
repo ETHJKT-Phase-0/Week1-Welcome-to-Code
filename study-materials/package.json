@@ -1,0 +1,16 @@
+{
+  "name": "study-materials",
+  "version": "1.0.0",
+  "description": "Ikuti baca-baca per part karena di week 1 itu khusus untuk pemula yang paling pemula hehe. Good Luck wahai calon pelajar yang akan jadi nolep hehe.",
+  "main": "latihan.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
