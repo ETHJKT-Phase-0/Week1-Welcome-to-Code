@@ -26,12 +26,40 @@ yak Buka aja W3school dan kerjakan soal soal berikut
 //tapi tanpa backtick juga ga masalah sih yg penting output sesuai
 
 // algoritma
-//isi algoritma mu disini (AWAS KALO GA DI ISI!!!!)
+// 1. Cek apakah variabel `nama` kosong.
+//    - Jika kosong, tampilkan peringatan "nama wajib diisi".
+// 2. Jika `nama` tidak kosong, cek apakah variabel `peran` kosong.
+//    - Jika kosong, tampilkan peringatan "Pilih Peranmu untuk memulai game".
+// 3. Jika `nama` dan `peran` tidak kosong, cek nilai `peran`:
+//    - Jika `peran` adalah "Ksatria", tampilkan "halo Ksatria ${nama} , kamu dapat menyerang dengan senjatamu!"
+//    - Jika `peran` adalah "Tabib", tampilkan "halo Tabib ${nama} , kamu akan membantu temanmu yang terluka"
+//    - Jika `peran` adalah "Penyihir", tampilkan "halo Penyihir ${nama} , ciptakan keajaiban yang membantu kemenanganmu!"
+//    - Selain itu, tampilkan "tapi kayaknya kamu jadi bot aja ya, peran yang kamu pilih ga ada"
 
 
-let nama = "", peran = "";
+let nama = "Budi", peran = "Ksatria"; // Contoh nilai
 
 //code disini gunakan console.log untuk outputnya
+if (nama === "") {
+    console.log("nama wajib diisi");
+} else if (peran === "") {
+    console.log("Pilih Peranmu untuk memulai game");
+} else {
+    switch (peran) {
+        case "Ksatria":
+            console.log(`halo Ksatria ${nama} , kamu dapat menyerang dengan senjatamu!`);
+            break;
+        case "Tabib":
+            console.log(`halo Tabib ${nama} , kamu akan membantu temanmu yang terluka`);
+            break;
+        case "Penyihir":
+            console.log(`halo Penyihir ${nama} , ciptakan keajaiban yang membantu kemenanganmu!`);
+            break;
+        default:
+            console.log("tapi kayaknya kamu jadi bot aja ya, peran yang kamu pilih ga ada");
+            break;
+    }
+}
 
 ```
 
@@ -51,10 +79,55 @@ let nama = "", peran = "";
 //dan mulailah membaca dan mencontek di stackoverflow xixixi
 
 let tanggal = 12; // assign nilai variabel tanggal disini! (dengan angka antara 1 - 31)
-let bulan = "februari"; // assign nilai variabel bulan disini! (dengan angka antara 1 - 12)
+let bulan = 2; // assign nilai variabel bulan disini! (dengan angka antara 1 - 12)
 let tahun = 2001; // assign nilai variabel tahun disini! (dengan angka antara 1900 - 2200)
 
-//code switch case kamu disini
+let namaBulan;
+
+switch (bulan) {
+    case 1:
+        namaBulan = "Januari";
+        break;
+    case 2:
+        namaBulan = "Februari";
+        break;
+    case 3:
+        namaBulan = "Maret";
+        break;
+    case 4:
+        namaBulan = "April";
+        break;
+    case 5:
+        namaBulan = "Mei";
+        break;
+    case 6:
+        namaBulan = "Juni";
+        break;
+    case 7:
+        namaBulan = "Juli";
+        break;
+    case 8:
+        namaBulan = "Agustus";
+        break;
+    case 9:
+        namaBulan = "September";
+        break;
+    case 10:
+        namaBulan = "Oktober";
+        break;
+    case 11:
+        namaBulan = "November";
+        break;
+    case 12:
+        namaBulan = "Desember";
+        break;
+    default:
+        namaBulan = "Bulan tidak valid";
+        break;
+}
+
+console.log(`${tanggal} ${namaBulan} ${tahun}`);
+
 ```
 
 ---
