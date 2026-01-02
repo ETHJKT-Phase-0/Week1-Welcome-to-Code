@@ -50,5 +50,5 @@ for(let y = 0; y < kumpulan_kata.length; y++){
         default: 
             break;
     }
-    console.log(`${temp} word: ${kumpulan_kata[y]}, with length: ${kumpulan_kata[y].length}`)
+    console.log(`${temp} word: ${kumpulan_kata[y]}, with length: ${kumpulan_kata[y].length}`);
 }
