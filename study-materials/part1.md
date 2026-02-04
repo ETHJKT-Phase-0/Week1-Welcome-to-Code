@@ -106,7 +106,7 @@ Kegunaan Fork:
 
 ## Step by step Fork Repository Phase0 week1 
 
-Pertama kalian pergi ke repo : https://github.com/ETHJKT-Phase-0/Week1-Welcome-to-Code
+Pertama kalian pergi ke repo : https://github.com/Ethereum-Jakarta/phase-0-week1-welcome-to-code
 
 dan dipojok kanan atas ada button "fork", klik button forknya
 
