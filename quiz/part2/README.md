@@ -18,6 +18,8 @@ let sixth = 'love';
 let seventh = 'it!';
 
 //code here
+
+console.log(word + " " + second + " "  + third + " " + fourth +  " "  +fifth + " " + sixth + " " + seventh);
 ```
 ## Soal 2. Index Accessing - 1 by 1
 ```js
@@ -35,6 +37,10 @@ let exampleFirstWord = word[0] + word[1] + word[2];
 
 console.log('First Word: ' + exampleFirstWord);
 //lanjutkan dengan struktur log diatas
+console.log("Second Word: " + word[4] + word[5] + word[6] + word[7] + word[8] + word[9] + word[10]+ word[11] + word[12] + word[13]);
+console.log("Third Word: " + word[15] + word[16]);
+console.log("Fourth Word: " + word[18] + word[19]);
+console.log("Fifth Word: " + word[21] + word[22] + word[23] + word[24]);
 ```
 ## Soal 3. Breaking Sentence (Again) using Substring
 ```js
