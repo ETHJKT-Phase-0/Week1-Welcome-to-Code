@@ -12,7 +12,7 @@ yak Buka aja W3school dan kerjakan soal soal berikut
 // Untuk memulai game itu diperlukan 2 variabel (untuk sekarang), 
 // yaitu nama dan peran. Variabel peran harus memiliki isi data, 
 // bila nama kosong, pemain akan diberikan peringatan berupa "nama wajib diisi"
-// bila kosong pemain akan diberikan peringatan berupa "Pilih Peranmu untuk memulai game". 
+// bila peran kosong pemain akan diberikan peringatan berupa "Pilih Peranmu untuk memulai game".
 // Terdapat 3 peran berbeda yaitu Ksatria, Tabib, dan Penyihir. 
 // Tugas Anda adalah untuk membuat program yang mengecek isi variabel 
 // peran serta mengeluarkan respon sesuai isi variabel tersebut.
