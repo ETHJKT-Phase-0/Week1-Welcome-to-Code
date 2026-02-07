@@ -29,10 +29,13 @@ yak Buka aja W3school dan kerjakan soal soal berikut
 //isi algoritma mu disini (AWAS KALO GA DI ISI!!!!)
 
 
-let nama = "", peran = "";
+let nama = "Adi", peran = "Ksatria";
 
+if nama == null 
+console.log("Nama Wajib Diisi")
 //code disini gunakan console.log untuk outputnya
 
+console.log(`Halo ${peran} ${nama} Kamu dapat Menyerang Dengan Senjatamu`)
 ```
 
 ## Soal 2
