@@ -15,7 +15,7 @@ function konversiMenit(menit) {
     let hasil = jam + ":" + sisaMenit;
     return hasil;
 }
-  
+
 // TEST CASES
 console.log(konversiMenit(63)); // 1:03
 console.log(konversiMenit(124)); // 2:04
