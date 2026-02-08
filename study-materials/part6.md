@@ -136,6 +136,6 @@ console.log(apelDikurangi); // Error! Variabelnya cuma ada di dalam fungsi
 Dengan memahami fungsi, kamu bisa menulis kode yang **modular**, **reusable**, dan **mudah di-debug**! 🎉
 
 video untuk pemahaman fungsi, yang mungkin kalian butuh, apalagi di menit menit akhir itu ada contoh kompleksnya:
-[Belajar Function by Harkon RPN](https://youtu.be/qaHT0psosU0)
+[Belajar Function by Harkon ETHJKT](https://youtu.be/qaHT0psosU0)
 
 Referensi: [Link](https://medium.com/@adhywiranata/bermain-scope-di-javascript-d954e07d05ae)

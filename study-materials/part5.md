@@ -197,7 +197,7 @@ Dengan memahami alur dan visualisasi, Kalian bisa menghindari kesalahan umum (se
 ---
 
 ### Latihan Soal Looping
-Kita akan belajar cara implementasi konsep Looping di sebuah coding problems. Ini akan berguna untuk kalian melatih logic dan algoritma, karena looping ini senjata kalian untuk mengerjakan soal soal di RPN
+Kita akan belajar cara implementasi konsep Looping di sebuah coding problems. Ini akan berguna untuk kalian melatih logic dan algoritma, karena looping ini senjata kalian untuk mengerjakan soal soal di ETHJKT
 
 SOAL : 
 Buatlah perulangan 1-100 dengan pertambahan counter 1. Di dalam perulangan:  

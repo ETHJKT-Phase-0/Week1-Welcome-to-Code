@@ -119,7 +119,7 @@ Penting untuk memahami scope agar bisa:
 - Mengontrol akses ke data
 - Menulis kode yang lebih aman dan mudah dipelihara
 
-Karena jam terbang kalian masih kecil, dan belum terlalu banyak menulis codingan yang complex. Disarankan kita akan memakai `var` saja untuk penggunaan variable dalam pembelajaran phase 0 di RPN. Ini akan memudahkan kalian untuk belajar dasar dasar syntaxnya dan tidak terlalu berurusan dengan masalah scoping.
+Karena jam terbang kalian masih kecil, dan belum terlalu banyak menulis codingan yang complex. Disarankan kita akan memakai `var` saja untuk penggunaan variable dalam pembelajaran phase 0 di ETHJKT. Ini akan memudahkan kalian untuk belajar dasar dasar syntaxnya dan tidak terlalu berurusan dengan masalah scoping.
 
 
 ## Logging
@@ -132,7 +132,7 @@ console.log("Pesan biasa");
 console.log("User:", { nama: "Budi", umur: 25 });
 ```
 
-console.log ini bakal kalian saring pakai untuk printing value code kalian, karena kalian nanti bakal ngerjain quiz quiz dari RPN dimana resultnya adalah hasil dari log.
+console.log ini bakal kalian saring pakai untuk printing value code kalian, karena kalian nanti bakal ngerjain quiz quiz dari ETHJKT dimana resultnya adalah hasil dari log.
 
 2. console.error() - Untuk menampilkan pesan error
 ```javascript
@@ -478,7 +478,7 @@ console.log(0.1 + 0.2);         // 0.30000000000000004
 console.log((0.1 + 0.2).toFixed(2));  // "0.30"
 ```
 
-Pemahaman yang baik tentang number dan operator-operatornya sangat penting dalam pemrograman JavaScript, terutama untuk aplikasi yang melibatkan banyak perhitungan matematika. Kalian akan sering menemukan soal soal coding di RPN yang menggunakan operator matematika ini jadi harus dilatih semua syntax operatornya.
+Pemahaman yang baik tentang number dan operator-operatornya sangat penting dalam pemrograman JavaScript, terutama untuk aplikasi yang melibatkan banyak perhitungan matematika. Kalian akan sering menemukan soal soal coding di ETHJKT yang menggunakan operator matematika ini jadi harus dilatih semua syntax operatornya.
 
 ## Conditional Statements
 
