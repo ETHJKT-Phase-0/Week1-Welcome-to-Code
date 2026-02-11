@@ -80,7 +80,7 @@ console.log(prosesApel(3, potongApel)); // 12
 
 #### **b. Default Parameters**  
 Kasih nilai default jika argumen tidak diberikan:  
-```js
+```js 
 function buatPieApel(apel = 5) {
     return `Pie dengan ${apel} apel 🥧`;
 }
@@ -133,7 +133,7 @@ console.log(apelDikurangi); // Error! Variabelnya cuma ada di dalam fungsi
 - teliti dalam penentuan parameter mau tipe data apa aja
 - jangan lupa kasih () buat jalanin fungsinya
 
-Dengan memahami fungsi, kamu bisa menulis kode yang **modular**, **reusable**, dan **mudah di-debug**! 🎉
+Dengan memahami fungsi, kamu bisa menulis kode yang **modular**, **reusable**, dan **mudah di-debug**! 🎉 
 
 video untuk pemahaman fungsi, yang mungkin kalian butuh, apalagi di menit menit akhir itu ada contoh kompleksnya:
 [Belajar Function by Harkon ETHJKT](https://youtu.be/qaHT0psosU0)
