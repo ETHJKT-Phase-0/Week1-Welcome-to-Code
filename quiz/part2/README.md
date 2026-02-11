@@ -34,7 +34,6 @@ let word = 'wow JavaScript is so cool';
 let exampleFirstWord = word[0] + word[1] + word[2];
 
 console.log('First Word: ' + exampleFirstWord);
-//lanjutkan dengan struktur log diatas
 ```
 ## Soal 3. Breaking Sentence (Again) using Substring
 ```js
