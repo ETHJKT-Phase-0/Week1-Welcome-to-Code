@@ -1,0 +1,102 @@
+// Kamu akan diberikan sebuah tanggal dalam tiga variabel, yaitu hari, bulan, dan tahun. Disini kamu diminta untuk membuat format tanggal. Misal tanggal yang diberikan adalah hari 1, bulan 5, dan tahun 1945. Maka, output yang harus kamu proses adalah menjadi 1 Mei 1945.
+// Gunakan switch case untuk kasus ini!
+// Contoh:
+// let hari = 21; let bulan = 1; let tahun = 1945;
+// Maka hasil yang akan tampil di console adalah: '21 Januari 1945';
+//tips gunakan keyword ini di google "conditional switch case javascript"
+//dan mulailah membaca dan mencontek di stackoverflow xixixi
+
+let tanggal = 12; // assign nilai variabel tanggal disini! (dengan angka antara 1 - 31)
+let bulan = "februari"; // assign nilai variabel bulan disini! (dengan angka antara 1 - 12)
+let tahun = 2001; // assign nilai variabel tahun disini! (dengan angka antara 1900 - 2200)
+
+let sasi = bulan
+let wulans
+switch(sasi) {
+    case "januari":
+        wulans = 1
+        break
+    case "februari":
+        wulans = 2
+        break
+    case "maret":
+        wulans = 3
+        break
+    case "april":
+        wulans = 4
+        break
+    case "mei":
+        wulans = 5
+        break
+    case "juni":
+        wulans = 6
+        break
+    case "juli":
+        wulans = 7
+        break
+    case "agustus":
+        wulans = 8
+        break
+    case "september":
+        wulans = 9
+        break
+    case "oktober":
+        wulans = 10
+        break
+    case "november":
+        wulans = 11
+        break
+    case "desember":
+        wulans = 12
+        break
+}
+
+bulan = wulans
+let text = (`${tanggal} ${bulan} ${tahun}`)
+//code switch case kamu disini
+if (tanggal < 1 || tanggal > 31) {
+    console.log(`assign nilai variabel tanggal disini! (dengan angka antara 1 - 31)`)
+} else if (bulan < 1 || bulan > 12) {
+    console.log(`assign nilai variabel bulan disini! (dengan angka antara 1 - 12)`)
+} else if (tahun < 1900 || tahun >= 2200) {
+    console.log(`assign nilai variabel tahun disini! (dengan angka antara 1900 - 2200)`)
+} else {
+    switch(bulan) {
+        case 1:
+            console.log(text)
+            break
+        case 2:
+            console.log(text)
+            break
+        case 3:
+            console.log(text)
+            break
+        case 4:
+            console.log(text)
+            break
+        case 5:
+            console.log(text)
+            break
+        case 6:
+            console.log(text)
+            break
+        case 7:
+            console.log(text)
+            break
+        case 8:
+            console.log(text)
+            break
+        case 9:
+            console.log(text)
+            break
+        case 10:
+            console.log(text)
+            break
+        case 11:
+            console.log(text)
+            break
+        case 12:
+            console.log(text)
+            break
+    }
+}
