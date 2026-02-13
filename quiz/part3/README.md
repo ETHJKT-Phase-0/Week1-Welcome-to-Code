@@ -7,6 +7,10 @@
 // Untuk membuat tantangan ini lebih menarik, kamu juga diminta untuk membuat suatu looping yang menghitung maju dan 
 // menghitung mundur. Jangan lupa tampilkan di console juga judul 'LOOPING PERTAMA' dan 'LOOPING KEDUA'.
 //tampilkan output yang menunjukan kalau looping itu maju pada looping pertama dan mundur pada looping kedua
+
+
+
+
 ```
 ## Soal 2. Melakukan Looping Menggunakan For
 ```js
@@ -15,6 +19,9 @@
 // Untuk membuat tantangan ini lebih menarik, kamu juga diminta untuk membuat suatu looping yang menghitung maju dan 
 // menghitung mundur. Jangan lupa tampilkan di console juga judul 'LOOPING PERTAMA' dan 'LOOPING KEDUA'.
 //tampilkan output yang menunjukan kalau looping itu maju pada looping pertama dan mundur pada looping kedua
+
+
+
 ```
 ## Soal 3. Angka Ganjil dan Genap
 
@@ -27,6 +34,8 @@
 
 // Apabila angka counter adalah angka genap, tuliskan GENAP
 // Apabila angka counter adalah angka ganjil, tuliskan GANJIL
+
+
 ```
 ## Soal 4. counter kelipatan
 ```js
@@ -36,6 +45,8 @@
 // Apabila bukan kelipatan yang ditentukan tidak perlu menuliskan apa-apa
 // Apabila angka counter adalah kelipatan 3 dengan pertambahan 2, kelipatan 6 dengan pertambahan 5, dan kelipatan 10 dengan pertambahan 9, tuliskan:
 // "3 kelipatan 3"dan seterusnya.
+
+
 ```
 ## Soal 5. Bintang asteriks
 ```js
