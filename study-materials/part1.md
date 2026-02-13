@@ -1,6 +1,6 @@
 # Hello World | Apa Saja yang Harus Disiapkan? | Part 1
 
-Hi para siswa nolep, disini pembelajaran menggunakan javascript sebagai tools belajar fundamental pemrograman awal kalian
+Hi para Etherean, disini pembelajaran menggunakan javascript sebagai tools belajar fundamental pemrograman awal kalian
 
 ***INGAT INI BUKAN BELAJAR BIKIN WEB NAMUN BELAJAR NGODING***
 
@@ -87,9 +87,9 @@ Jika sudah selesai, kalian akan langsung redirect ke dashboard github akun kalia
 
 untuk sekarang step github sampai buat akun saja, nanti kita lanjut di part 4 untuk buat repo pertama kalian dan commit pertama di git.
 
-# Daftar RPN (Fork Repo Pertama)
+# Daftar ETHJKT (Fork Repo Pertama)
 
-Sekarang kalian perlu melakukan Fork pada repo week1 phase 0 dan melakukan pull request untuk monitoring progress tugas kalian di komunitas RPN.
+Sekarang kalian perlu melakukan Fork pada repo week1 phase 0 dan melakukan pull request untuk monitoring progress tugas kalian di komunitas ETHJKT.
 
 Fork repository di GitHub adalah proses membuat salinan independen dari repository milik orang lain ke akun GitHub kita sendiri. Ini merupakan fitur penting dalam pengembangan software kolaboratif. Mari saya jelaskan lebih detail:
 
@@ -106,7 +106,7 @@ Kegunaan Fork:
 
 ## Step by step Fork Repository Phase0 week1 
 
-Pertama kalian pergi ke repo : https://github.com/RPN-Phase-0/Week1-Welcome-to-Code
+Pertama kalian pergi ke repo : https://github.com/Ethereum-Jakarta/phase-0-week1-welcome-to-code
 
 dan dipojok kanan atas ada button "fork", klik button forknya
 
@@ -218,7 +218,7 @@ Node.js adalah runtime environment yang memungkinkan JavaScript untuk berjalan d
 
 ![image](https://github.com/user-attachments/assets/55b0ef93-0036-49d6-89af-95a7b9f976a0)
 
-Jadi NodeJS ini salah satu tools runtime javascript , agar kita bisa running code javascript ini di sisi server. Karena pengenalan Syntax JS di RPN ini metodenya menggunakan scripting test dari terminal, kalian bakal sering running code" javascript langsung di integrated terminal VSCode menggunakan node js.
+Jadi NodeJS ini salah satu tools runtime javascript , agar kita bisa running code javascript ini di sisi server. Karena pengenalan Syntax JS di ETHJKT ini metodenya menggunakan scripting test dari terminal, kalian bakal sering running code" javascript langsung di integrated terminal VSCode menggunakan node js.
 
 ## Instalasi Node JS
 Untuk Instalasi Nodejs, kalian bisa langsung ke website nya node js dan download installernya seperti biasa.
@@ -279,7 +279,7 @@ setelah itu enter
 
 Congrats!!! ini adalah experience ngoding pertama kalian. Hello World ini sangat krusial bagi para pemula, disinilah gerbang start kalian untuk belajar menjadi Software Engineer.
 
-# Submit Tugas RPN (PR Pertama)
+# Submit Tugas ETHJKT (PR Pertama)
 
 Pull Request (PR) adalah fitur di GitHub yang memungkinkan Kalian mengusulkan perubahan kode dari repository fork atau branch Kalian ke repository utama. Ini adalah cara utama untuk berkolaborasi dalam pengembangan software. Mari saya jelaskan secara detail:
 
@@ -312,7 +312,7 @@ Proses Review Pull Request:
 1. Maintainer akan mereview perubahan kode
 2. Mereka bisa memberikan komentar atau meminta perubahan
 3. Kalian bisa melakukan update berdasarkan feedback
-4. Setelah disetujui, PR akan di-merge ke repository utama (Case di RPN PR kalian tidak perlu di merge)
+4. Setelah disetujui, PR akan di-merge ke repository utama (Case di ETHJKT PR kalian tidak perlu di merge)
 
 Status Pull Request:
 - Open: PR masih dalam proses review
@@ -322,7 +322,7 @@ Status Pull Request:
 
 ## Clone Tugas Pertama 
 
-Bagi yang belum cloning repository nya di local, kalian wajib melakukan clone repo terlebih dahulu. Agar kalian bisa mengerjakan tugas tugas RPN di laptop kalian sendiri.
+Bagi yang belum cloning repository nya di local, kalian wajib melakukan clone repo terlebih dahulu. Agar kalian bisa mengerjakan tugas tugas ETHJKT di laptop kalian sendiri.
 
 pergi ke repo fork kalian (hasil fork diatas) : https://github.com/zexoverz/Week1-Welcome-to-Code (contoh)
 
@@ -416,7 +416,7 @@ nah kalian bisa pergi ke tab "Pull Requests" dan klik button hijau New Pull Requ
 
 ![image](https://github.com/user-attachments/assets/57688261-8860-405c-b8bd-f14ba7f737c3)
 
-setelah itu github akan otomatis melakukan komparasi terhadap fork repo kalian dengan repo asli RPN.
+setelah itu github akan otomatis melakukan komparasi terhadap fork repo kalian dengan repo asli ETHJKT.
 
 selanjutnya tinggal klik create pull request
 
@@ -427,7 +427,7 @@ Isi title dengan username/nama kalian. setelah itu klik create pull request
 
 ![image](https://github.com/user-attachments/assets/57f509e9-c944-40b6-a007-52d17a5e6c09)
 
-Congrats, kalian sudah submit tugas pertama di RPN
+Congrats, kalian sudah submit tugas pertama di ETHJKT
 
 ![image](https://github.com/user-attachments/assets/da84dfc3-b10e-42fb-ae2a-07b857a2befa)
 
@@ -443,11 +443,11 @@ Mentor juga bakal ngasih feedback berupa comment di PR kalian.
 
 Kalian akan melakukan Fork & PR ulang, jika kalian sudah lanjut ke week2. 
 
-Karena RPN memisahkan 1 Repo = 1 Week.
+Karena ETHJKT memisahkan 1 Repo = 1 Week.
 
 Jadi jika Phase 0 punya 4 Week , maka kalian harus fork 4 repo dan 4 PR.
 
-`Welcome to RPN World, Let's Code ALL CHALLANGES !!!`
+`Welcome to ETHJKT World, Let's Code ALL CHALLANGES !!!`
 
 ----------------------------------------------------
 video tutorial materi ini, biar lebih paham: [Part 1](https://youtu.be/2zpsV_00pWc)

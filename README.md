@@ -1,9 +1,10 @@
 # Week 1 - Welcome to Code!
-![HD-wallpaper-welcome-beach-funny-ocean](https://github.com/user-attachments/assets/d76c18fb-6f11-4671-8277-11454fa7b48e)
 
-Selamat datang di RPN Phase-0 Week 1! Repo ini dibuat khusus untuk pemula yang ingin belajar coding dengan fokus pada JavaScript fundamental. Di sini, kalian akan menemukan materi yang mencakup dasar-dasar pemrograman, seperti variabel, tipe data, conditional statement, looping, fungsi, dan banyak lagi.
+Selamat datang di **ETHJKT Phase-0 Week 1**! 🧙‍♂️
 
-## Apa yang akan Kalian pelajari di week1 ?
+Repo ini dibuat khusus untuk pemula yang ingin belajar coding dengan fokus pada JavaScript fundamental. Di sini, kalian akan menemukan materi yang mencakup dasar-dasar pemrograman, seperti variabel, tipe data, conditional statement, looping, fungsi, dan banyak lagi.
+
+## Apa yang akan Kalian pelajari di Week 1?
 
 1. **Dasar-dasar Pemrograman**
    - Algorithm & Pseudocode
@@ -26,7 +27,7 @@ Selamat datang di RPN Phase-0 Week 1! Repo ini dibuat khusus untuk pemula yang i
 
 1. **Mulailah dengan membaca materi yang tersedia di setiap folder.** Setiap topik memiliki penjelasan lengkap dan contoh kode yang bisa kalian pelajari.
 2. **Coba tulis kode kalian sendiri!** Setiap bagian menyertakan latihan yang bisa kalian coba untuk menguji pemahaman kalian.
-3. **Bergabunglah dengan komunitas.** Jangan ragu untuk bertanya atau berdiskusi dengan sesama pemula di bagian issues atau melalui pull requests.
+3. **Bergabunglah dengan komunitas.** Jangan ragu untuk bertanya atau berdiskusi dengan sesama Etherean di bagian issues atau melalui pull requests.
 
 ## Week 1 Study Materials
 - [Apa saja yang harus disiapkan](./study-materials/part1.md)
@@ -36,12 +37,12 @@ Selamat datang di RPN Phase-0 Week 1! Repo ini dibuat khusus untuk pemula yang i
 - [Belajar Looping](./study-materials/part5.md)
 - [Belajar Function](./study-materials/part6.md)
 
-## Week 1 Logic Nolep (quiz)
-- [Part1](https://github.com/RPN-Phase-0/Week1-Welcome-to-Code/blob/main/quiz/part1/README.md)
-- [Part2](https://github.com/RPN-Phase-0/Week1-Welcome-to-Code/tree/main/quiz/part2)
-- [Part3](https://github.com/RPN-Phase-0/Week1-Welcome-to-Code/tree/main/quiz/part3)
-- [Part4](https://github.com/RPN-Phase-0/Week1-Welcome-to-Code/blob/main/quiz/part4/README.md)
-- [Ujian Week1](https://github.com/RPN-Phase-0/Week1-Welcome-to-Code/tree/main/quiz/ujian)
+## Week 1 Arcane Quest (Quiz)
+- [Part1](./quiz/part1/README.md)
+- [Part2](./quiz/part2/README.md)
+- [Part3](./quiz/part3/README.md)
+- [Part4](./quiz/part4/README.md)
+- [Ujian Week1](./quiz/ujian/README.md)
 
 ## Dukung Kami
 
@@ -49,4 +50,4 @@ Jika Kalian menemukan repo ini bermanfaat, jangan lupa untuk memberikan bintang 
 
 Selamat belajar dan selamat datang di dunia pemrograman! 🚀
 
-[Discord RPN](https://discord.gg/ufbRBRTKN8)
+[Discord ETHJKT](https://discord.gg/Bb7UF4vuK4)
